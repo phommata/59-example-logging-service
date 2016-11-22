@@ -5,7 +5,7 @@ export class LogService {
 
   constructor() { }
 
-  writeToLog(legMessage: string) {
+  writeToLog(logMessage: string) {
     console.log(logMessage);
   }
 }
