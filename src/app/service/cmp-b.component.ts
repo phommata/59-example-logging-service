@@ -46,7 +46,8 @@ export class CmpBComponent implements OnInit {
   }
 
   ngOnInit(){
-    this.dataService.pushedData.subscribe();
+    this.dataService.pushedData.subscribe(
       data => this.value = data;
+    );
   }
 }
